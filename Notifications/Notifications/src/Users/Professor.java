@@ -1,4 +1,4 @@
-package Users;
+package users;
 
 import java.sql.Date;
 
@@ -6,7 +6,7 @@ public class Professor {
 	String name;
 	String department;
 	Date hirringDate;
-	String PhDTopic;
+	String phDTopic;
 	String email;
 	String phoneNumber;
 	
