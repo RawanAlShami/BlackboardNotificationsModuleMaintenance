@@ -1,4 +1,4 @@
-package users;
+package Users;
 
 public class TA {
 	String name;

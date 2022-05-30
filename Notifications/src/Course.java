@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 import Gateways.EmailGateway;
 import Messages.TaskAddedEmailMessage;
-import users.Professor;
-import users.Student;
-import users.TA;
+import Users.Professor;
+import Users.Student;
+import Users.TA;
 
 public class Course {
 	
