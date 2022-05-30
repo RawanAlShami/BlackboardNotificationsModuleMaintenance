@@ -1,8 +1,8 @@
-package Users;
+package users;
 
 public class Student {
 	String name;
-	int Id;
+	int id;
 	String email;
 	String phoneNumber;
 	
