@@ -1,4 +1,4 @@
-package Gateways;
+package gateways;
 
 import Messages.DailyNewsEmailMessage;
 import Messages.GradesAnnouncementEmailMessage;
@@ -6,7 +6,7 @@ import Messages.TaskAddedEmailMessage;
 
 public class EmailGateway {
 	
-	public void sendMessage(Object message, String user) {
+	public void sendMessage(Object message) {
 		String[] placeHolders = new String[] {}; // set some place holders here 
 		
 		if(message instanceof DailyNewsEmailMessage) {
